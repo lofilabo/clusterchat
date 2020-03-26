@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <script src="jquery-1.2.6.min.js" type="text/javascript"></script>
+    <script src="client.js" type="text/javascript"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>SnowRobin chat</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="connect">
+        <form action="#">
+          <fieldset> 
+            <p>
+		welcome to the SnowRobin	
+            </p>
+
+            <label for="nick">what your name</label>
+            <input id="nickInput" class="text"type="text" name="nick" value=""/>
+            <input id="connectButton" class="button" type="submit" name="" value="Join"/>
+
+          </fieldset>
+        </form>
+      </div>
+      <div id="loading"><p>loading</p></div>
+      <div id="log">
+      </div>
+      <div id="toolbar">
+        <ul id="status">
+          <li><a id="usersLink" href="#"></a></li>
+          <li>uptime: <span id="uptime"></span></li>
+          <li>memory: <span id="rss"></span>mb</li>
+        </ul>
+        <input tabindex="1" type="text" id="entry"/>
+      </div>
+  </body>
+</html>
