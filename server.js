@@ -5,7 +5,7 @@
 // date:2012/09/12 taro hirayama 
 //---------------------------------------------------------
 HOST = null; // localhost
-PORT = 8001;
+PORT = 8017;
 
 // when the daemon started
 var starttime = (new Date()).getTime();
